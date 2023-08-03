@@ -1,4 +1,53 @@
-p{
+p {
     color: rgb(183, 40, 150);
     font-size: 25px;
+}
+
+div {
+    width: 400px;
+    height: 400px;
+    background-color: yellow;
+    background-color: violet;
+}
+
+#div2 {
+    width: 1000px;
+    height: 1000px;
+    background-color: greenyellow;
+    background-image: url("../imgs/istockphoto-1202250586-170667a_副本.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#h3 {
+    text-align: center;
+    text-decoration: overline;
+    text-decoration: line-through;
+}
+
+#p1 {
+    text-transform: capitalize;
+}
+
+.table1 {
+    border: 1px solid rgb(73, 135, 116);
+    border-collapse: collapse;
+    width: 200px;
+    height: 200px;
+    
+}
+
+td {
+    border: 1px solid rgb(73, 135, 116);
+    text-align: center;
+    padding: 30px;
+}
+
+#div3{
+    width: 1000px;
+    height: 1000px;
+    background-color: white;
+    background-position: center;
+
 }
