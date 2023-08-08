@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>动画学习测试</title>
+    <!-- <style> -->
+    <!-- /* div{
+            width: 300px;
+            height: 300px;
+            background-color: aquamarine;
+        }
+        
+    </style> */ -->
+</head>
+
+<body>
+    <!-- <div>
+
+    </div> -->
+
+    <script>
+        // var num = {
+
+        // }
+        // console.log(typeof num);
+        // document.write(num)
+
+        // var num1 = 10;
+        // var num2 = 11;
+        // console.log(num1 > num2);
+        // document.write(num1 > num2);
+        var num = "\"nihao\"爱你"
+        // .length 只能看字符
+        document.write(num.length)
+        var char = num.charAt(num.length)
+        // document.write(<br/>)
+        document.write(char)
+
+        var s1 = ' come '
+        var s2 = 'on!'
+        var s3 = s1.concat(" ", s2, s1, s2, s1, s2, 100)
+        console.log(s3);
+        console.log(s1);
+        console.log(s2);
+        console.log(typeof s3);
+        console.log(s3.indexOf("1", 25));
+        console.log(s3.trim());
+        console.log(s3.split("",));
+
+        var array = ['1', '2', '3']
+        console.log(array);
+        array[4] = 'boheng';
+        array[5] = false
+        console.log(array);
+        var arr =['haha']
+        array[6] = arr
+        console.log(array);
+        console.log(array.length);
+        console.log(array[9]);
+
+        for(var i = 0; i < array.length; i++){
+            console.log(array[i]);
+        }
+
+        var i = 0;
+        while(i<array.length){
+            console.log(array[i]);
+            i = i + 1;
+        }
+
+        for(i in array){
+            console.log(array[i]);
+        }
+
+        console.log(typeof array);
+        console.log(Array.isArray(array));
+        console.log(Array.isArray("umn"));
+        
+        // var num2 = "1"
+        // var num3 = 2
+        // var result = num2.concat(num3)
+        // console.log(result);
+        // console.log(num2 + num3);
+        
+        // result = s3.substring(3,4)
+        // console.log(result);
+        // var result2 = s3.substring(0)
+        // console.log(result2)
+    </script>
+</body>
+
+</html>
